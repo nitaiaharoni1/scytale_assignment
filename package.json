@@ -1,0 +1,14 @@
+{
+  "name": "scytale_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "cd ./client && npm i && npm run build && cd ../backend && npm i && npm run build && npm start",
+    "dev": "cd ./client && npm run build && cd ../backend && npm run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}

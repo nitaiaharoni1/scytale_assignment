@@ -1,0 +1,1 @@
+export type IStatus = 'Draft' | 'Open' | 'Closed' | string;

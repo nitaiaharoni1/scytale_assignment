@@ -4,7 +4,7 @@ import { PullRequest } from '../models/pullRequest';
 
 export const getPullRequests = async (params: GetPullRequestsParams): Promise<any> => {
   try {
-    const res = await axios.get('http://localhost:5000/prs', { params });
+    const res = await axios.get('/prs', { params });
     if (!res?.data) return;
     return res?.data?.map((pr: PullRequestData) => new PullRequest(pr));
   } catch (e) {
@@ -14,7 +14,7 @@ export const getPullRequests = async (params: GetPullRequestsParams): Promise<an
 
 export const createPullRequest = async (body: PullRequest): Promise<any> => {
   try {
-    const res = await axios.post('http://localhost:5000/prs', body);
+    const res = await axios.post('/prs', body);
     if (!res?.data) return;
     return true;
   } catch (e) {

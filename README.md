@@ -35,7 +35,7 @@ There is an option to sort (asc/desc) clicking on the headers of the columns:
 
 The dashboard was designed as a table using MaterialUI Data-Grid.
 
-## What can be improved?
+## What can be added/improved?
 - Sorting is changing the *Add Row* order. Can be fixed with changing the edit row UI / server-side sorting.
 - Adding server-side pagination.
 - Adding Delete button for each row.

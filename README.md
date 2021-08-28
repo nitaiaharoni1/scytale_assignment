@@ -1,7 +1,7 @@
 # Scytale Home Assignment
 
 ## How to run?
-In the root directory *scytale_assignment* just run *npm start*.
+In the root directory *scytale_assignment* just run `npm start`.
 
 ## Server Side
 Built with *express typescript* and *MongoDB (mongoose)*.
